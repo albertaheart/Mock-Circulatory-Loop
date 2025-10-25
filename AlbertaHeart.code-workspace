@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.DS_Store": true
+  },
+  "editor.tabSize": 4,
+  "python.defaultInterpreterPath": "C:/Users/Almir/AppData/Local/Programs/Python/Python312/python.exe",
+"matlab.matlabpath": "C:/Program Files/MATLAB/R2024b/bin/matlab.exe",
+"folders": [
+	{
+		"path": "."
+	}
+]
+}
