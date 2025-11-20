@@ -38,7 +38,7 @@ while ishandle(h0)
     data = read(dq, seconds(0.1));
     
     % Convert voltage to pressure
-    pressureData = data{:,:} * 8.8348;
+    pressureData = data{:,:} * 8.8348 * 100;
 
     % Get elapsed time for each sample (a vector)
     numSamples = height(data);
@@ -51,3 +51,4 @@ while ishandle(h0)
     
     drawnow limitrate;
 end
+
